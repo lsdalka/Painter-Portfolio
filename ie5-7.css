@@ -1,0 +1,58 @@
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+body {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+
+#wrapper {
+	min-height: auto;
+	padding-top: 40px;
+}
+
+
+#header {
+	width: 100%;
+}
+
+.menu {
+	margin: 0;
+}
+.menu li {
+	margin: 0;
+}
+
+
+#footer {
+	height: 160px;
+}
+#footer a {
+	color: #ffffff;
+}
+
+.about-contact {
+	display: block;
+	text-align: center;
+	margin: 0 auto 40px auto;
+}
+
+.facebook {
+	display: block;
+	margin: 10px auto 30px auto;
+}
+.facebook img {
+	background-color: #000000;
+	vertical-align: middle;
+}
+
+.credits {
+	display: block;
+	float: none;
+	text-align: center;
+}
+

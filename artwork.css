@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000000;
+	overflow-x: hidden;	/* otherwise x-scrollbar 'flashes' when pics from gallery get reordered on page zoom */
+}
+
+
+#wrapper {
+	min-height: calc(100vh - 80px);
+	background-color: #ffffff;
+	padding-bottom: 40px;
+}
+
+
+#header {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+#header a {
+	color: black;
+	text-decoration: none;
+}
+
+#name {
+	line-height: 80px;
+	padding-top: 40px;
+	font-size: 56px;
+	font-family: 'Just Another Hand', cursive;
+	font-style: italic;
+	letter-spacing: 15px;
+}
+
+.menu {
+	margin: 25px auto 0 auto;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+}
+.menu ul {
+	list-style: none;
+}
+.menu li {
+	display: inline-block;
+	line-height: 40px;
+	margin-right: 15px;
+	border-top: 1px solid transparent;
+}
+.menu li:hover {
+	border-top: 1px solid black;
+}
+.current-menu-item {
+	border-top: 1px solid black !important;
+}
+
+
+#content {
+	width: 80%;
+	margin: 40px auto;
+	line-height: 30px;
+}
+
+#about-contact-content {
+	width: 80%;
+	margin: 40px auto;
+	line-height: 30px;	
+}
+#about-contact-content img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#about-contact-content div {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* gallery pics thumbnails */
+.psgal a img {
+	-webkit-box-shadow: 0 0 2px 1px #000000;
+	box-shadow: 0 0 2px 1px #000000;
+}
+.psgal a img:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* captions when gallery pics are fullscreen */
+.pswp__caption__center {
+	font-size: 16px !important;
+	max-width: 95% !important;
+}
+
+
+#footer {
+	max-width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
+#footer a {
+	color: #ffffff;
+}
+
+.about-contact {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	height: 40px;
+	font-size: 24px;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	margin-left: 20px;
+}
+.about-contact div {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+}
+.about-contact div a {
+	text-decoration: none;
+}
+
+.facebook {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+}
+.facebook  img {
+	border: none;
+	height: 40px;
+	width: 40px;
+	vertical-align: top;
+}
+.facebook a {
+	letter-spacing: 1px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.facebook a:hover {
+	text-decoration: underline;
+}
+
+.credits {
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+	float: right;
+	margin-right: 20px;
+	line-height: 40px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+}
+.credits div {
+	height: 20px;
+	line-height: 20px;
+}
+.credits div a {
+	text-decoration: none;
+}
+	
+	
+/* Makes footer 3-section-lines */
+@media screen and (max-width: 1199px) {
+	
+	#content {
+		width: 90%;
+	}
+	
+	#about-contact-content {
+		width: 90%;
+	}
+	
+	
+	#footer {
+		height: 160px;
+	}
+
+	.about-contact {
+		display: block;
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.facebook {
+		display: block;
+		width: 90%;
+		margin: 10px auto 30px auto;
+	}
+
+	.credits {
+		display: block;
+		width: 90%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+}

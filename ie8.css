@@ -1,0 +1,37 @@
+#wrapper {
+	min-height: 700px;
+}
+
+
+#header {
+	width: 100%;
+	position: absolute;
+	top: 250px;
+	left: auto;
+}
+
+
+#footer {
+	height: 160px;
+}
+
+.about-contact {
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.facebook {
+	display: block;
+	width: 90%;
+	margin: 10px auto 30px auto;
+}
+
+.credits {
+	display: block;
+	width: 90%;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+}
